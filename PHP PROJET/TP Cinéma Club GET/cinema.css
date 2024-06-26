@@ -1,0 +1,26 @@
+.container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: darkred;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 1rem;
+    padding: 8px 6px;
+    border-radius: 16px;
+    border: solid 1px black;
+}

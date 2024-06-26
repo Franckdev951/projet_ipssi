@@ -1,0 +1,47 @@
+#api-zone {
+    position: relative;
+}
+
+#api-zone h1 {
+    margin-top: 3rem;
+}
+
+#api-zone h2 {
+    font-size: 1.4rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    max-width: 460px;
+    font-style: italic ;
+    font-weight: normal;
+}
+
+#api-zone h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+#api-zone img {
+    width: 460px;
+    height: 300px;
+    margin-top: 4rem;
+    position: absolute;
+    right: 0;
+}
+
+.quote-container {
+    display: flex;
+}
+
+.btn-refresh {
+    border: solid 1px #253a62;
+    position: absolute;
+    left: 0rem;
+    bottom: 10rem;
+    transition: background-color 0.4s;
+}
+
+.btn-refresh:hover {
+    background-color: #253a62;
+    color: white;
+}
